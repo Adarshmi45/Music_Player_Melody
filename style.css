@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Edu+NSW+ACT+Foundation:wght@400;700&family=Lora:wght@600&family=Merriweather&family=Pacifico&display=swap');
+
+body {
+    background-color: #395B64;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Lora', serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 14px;
+    font-weight: lighter;
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 14px;
+    padding: 10px;
+    background-image: url('bg.jpg');
+    align-items: center;
+
+}
+
+.bottom {
+    position: sticky;
+    height: 150px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin: 15px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#Progressbar {
+    width: 90vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songlist h1 {
+    margin: 20px 20px;
+
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 150%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.songItem img {
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.time {
+    margin: 0 15px;
+    padding: 5px 5px;
+}
+
+.time i {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sic {
+    margin: 35px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 28vw;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.songInfo span {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
